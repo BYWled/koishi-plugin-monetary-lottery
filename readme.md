@@ -12,16 +12,18 @@
 
 <p align="center">
 	<a href="https://gitee.com/BYWled/koishi-plugin-monetary-lottery"><img src="https://img.shields.io/badge/Gitee-代码镜像-C71D23?style=for-the-badge&logo=gitee&logoColor=white" alt="Gitee Mirror" /></a>
+	<a href="https://gitcode.com/BYWled/koishi-plugin-monetary-lottery"><img src="https://img.shields.io/badge/GitCode-代码镜像-2962FF?style=for-the-badge" alt="GitCode Mirror" /></a>
 </p>
 
 <p align="center">
 	<a href="https://github.com/BYWled/koishi-plugin-monetary-lottery">GitHub</a> ·
-	<a href="https://gitee.com/BYWled/koishi-plugin-monetary-lottery">Gitee</a>
+	<a href="https://gitee.com/BYWled/koishi-plugin-monetary-lottery">Gitee</a> ·
+	<a href="https://gitcode.com/BYWled/koishi-plugin-monetary-lottery">GitCode</a>
 </p>
 
 一个玩法定位于"日常小额稳定概率"的抽奖插件：奖项名称、数额、百分比概率均可由管理员通过指令动态调整，支持每日限额、冷却、连续未中奖保底，以及自定义反馈文本（支持变量占位）。与刮刮乐（权重型、可连买）和大乐透（奖池分摊）玩法完全区分。
 
-> 版本：**1.0.0**
+> 版本：**Alpha.1**
 
 ## ✨ 特性
 
