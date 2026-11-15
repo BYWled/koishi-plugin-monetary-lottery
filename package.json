@@ -1,0 +1,65 @@
+{
+  "name": "koishi-plugin-monetary-lottery",
+  "version": "1.0.0",
+  "description": "为 monetary 货币系统提供百分比概率抽奖：可指令管理奖项、每日限额、冷却、保底与自定义反馈文本",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "monetary",
+    "lottery",
+    "roll",
+    "抽奖",
+    "货币",
+    "娱乐",
+    "经济",
+    "economy"
+  ],
+  "author": {
+    "name": "BYWled",
+    "email": "bywled@qq.com",
+    "url": "https://github.com/BYWled"
+  },
+  "homepage": "https://github.com/BYWled/koishi-plugin-monetary-lottery",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BYWled/koishi-plugin-monetary-lottery"
+  },
+  "koishi": {
+    "description": {
+      "en": "Percentage-based lottery for monetary: command-managed prizes, daily limits, cooldown, pity and customizable reply texts",
+      "zh": "为 monetary 货币系统提供百分比概率抽奖：可指令管理奖项、每日限额、冷却、保底与自定义反馈文本"
+    },
+    "service": {
+      "required": [
+        "database",
+        "monetary"
+      ],
+      "optional": [
+        "monetaryBank"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.11",
+    "koishi-plugin-monetary": "*",
+    "koishi-plugin-monetary-bank": "*"
+  },
+  "peerDependenciesMeta": {
+    "koishi-plugin-monetary-bank": {
+      "optional": true
+    }
+  }
+}
